@@ -19,7 +19,7 @@ function App() {
       setError("");
 
       // Call the backend API
-      const response = await axios.post("http://localhost:8000/bfhl", parsedJson);
+      const response = await axios.post("https://vercel.com/niharika-jains-projects-6b1b8c8e/bajaj-backend/ETPqj89MhBo8D1GoF3RfKs4BknM9/bfhl", parsedJson);
       setResponseData(response.data);
 
       // Reset selected options
